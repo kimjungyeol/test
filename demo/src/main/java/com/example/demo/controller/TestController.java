@@ -17,7 +17,7 @@ public class TestController {
   public String main() {
     return "index";
   }
-  
+   
   @RequestMapping(value="/hello")
   public String hellSpringBoot( Model model ) {
 	  model.addAttribute("post", "test");
