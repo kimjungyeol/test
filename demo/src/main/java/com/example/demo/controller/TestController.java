@@ -30,8 +30,7 @@ public class TestController {
 	  String val = Search_channel.startSearch();
       return val;
   }
-
-
+  
 }
 
 
